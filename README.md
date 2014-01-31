@@ -1,31 +1,18 @@
-# lineman-blog
+Brilliant Fantastic
+====================
 
-Turns out that [lineman](http://linemanjs.com) makes a great blogging engine!
+The way too public site for the fantastical Brilliant Fantastic.
 
-Here's [a screencast](https://www.youtube.com/watch?v=raznFJedCZM) to demo usage for Test Double's blog, [Double Takes](http://blog.testdouble.com).
+## Who?
 
-## Getting Started
+I pity the fool who don't know who Brilliant Fantastic is.
 
-Here's how to publish a new blog to the web in minutes:
+![](http://omahapoweryoga.com/wp-content/uploads/2011/10/Pity-The-Fool-432692.jpg)
 
-1. Clone into this repository
-2. [Install lineman](https://github.com/testdouble/lineman#getting-started) if you haven't yet.
-3. Run `npm install` to install required project dependencies.
-4. Run `lineman run` while you work on writing markdown files under `app/posts`
-5. Install [heroku](https://toolbelt.heroku.com) if you haven't, then run `heroku create --buildpack http://github.com/testdouble/heroku-buildpack-lineman.git`
-6. Commit your post and `git push heroku master`, and your blog is hosted on the web with apache2!
+BF is a development shop in the sprawling metroplois of Toledo, OH. Currently made up of one (uno) handsome person, I design and develop web applications for the non-fools.
 
-## Features
+## What?
 
-First, consider reading about [grunt-markdown-blog](https://github.com/testdouble/grunt-markdown-blog), our grunt task that's doing almost all the heavy lifting here.
+I use a tool. That tool is called Ruby. It is a great tool. I am good at using that tool.
 
-* Just add markdown posts with an ".md" extension to `app/posts` and when you `lineman run` or `lineman build`, they'll be rendered.
-* Configure your blog in `config/application.coffee`
-* Customize your blog templates in `app/templates`.
-* RSS is generated for you at `/index.xml`
-* Disqus support is included if you configure it.
-* You can, of course, add any Less/CSS or CoffeeScript/JavaScript as you can with any other Lineman application. [See Lineman's documentation](https://github.com/testdouble/lineman).
-* For more info on publishing with heroku, [see details about Heroku & Lineman](https://github.com/testdouble/lineman#heroku).
-* To build static assets to deploy some other way, just run `lineman build` and put the `dist` directory's contents somewhere.
-
-
+I also use a tool called Javascript. I am pretty good with that tool as well. The jury is still out on whether I like that tool.
