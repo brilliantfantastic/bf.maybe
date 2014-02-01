@@ -23,7 +23,7 @@
       <div class='row'>
         <ul>
           <li>Copyright &copy;<%= new Date().getFullYear() %> Brilliant Fantastic, LLC. and <%= site.author %>.</li>
-          <li>Made with the help of RedBull&trade; at <a href='http://seedcoworking.com'>Seed Coworking</a></li>
+          <li>Made with RedBull&trade; at <a href='http://seedcoworking.com'>Seed Coworking</a></li>
         </ul>
       </div>
     </footer>

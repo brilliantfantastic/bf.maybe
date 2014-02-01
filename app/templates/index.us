@@ -1,3 +1,7 @@
 <div id='bg'>
   <img src='/img/where-the-wild-things-are.jpg' />
 </div>
+
+<div class='home'>
+  <a href='#' class='button'>Say Hello</a>
+</div>
