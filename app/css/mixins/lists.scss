@@ -1,0 +1,23 @@
+@mixin inline-list($padding: 4px, $separator: false) {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  li {
+    display: inline;
+    padding-left: $padding;
+
+    @if $separator {
+      &:before {
+        content: $separator;
+        padding-right: $padding;
+      }
+    }
+
+    &:first-child, &.first {
+      &:before {
+        content: "";
+      }
+      padding-left: 0;
+    }
+  }
+}

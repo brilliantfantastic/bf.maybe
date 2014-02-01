@@ -1,0 +1,9 @@
+footer {
+  text-align: center;
+  font-weight: 100;
+  font-size: smaller;
+
+  ul {
+    @include inline-list(5px, "\00B7");
+  }
+}
