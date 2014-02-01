@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script type="text/javascript" src="//use.typekit.net/kvr0zwe.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <link rel="stylesheet" type="text/css" href="<%= css %>" media="all" />
     <link rel="alternate" type="application/rss+xml" title="<%= site.title %> - feed" href="/index.xml" />
     <title><%= site.title %><%= post ? ' - '+post.title() : '' %></title>
   </head>
   <body>
-    <header>
-      <h1><%= site.title %></h1>
-      <nav>
-        <a href="/">home</a> | <a href="/archive.html">archives</a> | <a href="/about.html">about</a>
-      </nav>
-    </header>
+    <div class='container body-wrapper'>
+      <header>
+        <h1><%= site.title %></h1>
+      </header>
 
-    <%= yield %>
+      <%= yield %>
 
-    <footer>
-      Copyright <%= site.author %>, <%= new Date().getFullYear() %>.
+
+      <div class='footer-gutter'></div>
+    </div>
+
+    <footer class='container'>
+      <div class='row'>
+        <ul>
+          <li>Copyright &copy;<%= new Date().getFullYear() %> Brilliant Fantastic, LLC. and <%= site.author %>.</li>
+          <li>Made with the help of RedBull&trade; at <a href='http://seedcoworking.com'>Seed Coworking</a></li>
+        </ul>
+      </div>
     </footer>
     <script type="text/javascript" src="<%= js %>"></script>
   </body>
