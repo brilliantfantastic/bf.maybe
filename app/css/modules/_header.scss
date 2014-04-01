@@ -1,10 +1,15 @@
 header {
   position: fixed;
-  bottom: 100px;
+  bottom: -50px;
+  left: -100px;
   h1 {
     font-family: "monstro";
-    font-size: 4em;
-    width: 3em;
+    font-size: 12em;
+    /* font-size: 4em; */
+    /* width: 3em; */
     line-height: .9em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    color: transparent;
   }
 }
